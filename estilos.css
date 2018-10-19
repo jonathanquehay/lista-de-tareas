@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+
+
+
+
+
+/*.imagen-fondo{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)),url(img/fondo.jpeg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  min-width: 250px;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+ 
+  
+}*/
+
+/* El contenido se muestra en todo el documento */
+html,
+.completa {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+ /* background: #ffefba;  
+  background: -webkit-linear-gradient(to bottom, #ffefba, #ffffff); 
+  background: linear-gradient(to bottom, #ffefba, #ffffff); 
+  background-repeat:repeat-x;*/
+
+}
+
+/* Centrar el contenido en la pantalla */
+.tareas {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+ 
+}
+
+
+li{
+  text-align: left;
+  padding: 8px;
+}
+
+.borrar{
+  float: right;
+  background: red;
+  color: white; 
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tarea{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1em;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+  border: 0.5px solid black;
+
+}
+
+button{
+  background: #0083C3;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+}
+
+.app{
+  width: 80%;
+}
